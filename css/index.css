@@ -95,3 +95,18 @@ button:hover{
     font-size: 22px;
     padding: 15px 20px;
 }
+@media screen and (max-width: 1080px){
+    .nav-items{
+        display: none;
+    }
+    nav{
+        justify-content: space-between;
+    }
+    .main-div{
+        padding: 0px 0px;
+    }
+    .left-section h4{
+        padding: 0px;
+        padding-left: 0;
+    }
+}
